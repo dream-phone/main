@@ -1,8 +1,11 @@
 export default function Home(){
     return(
         <div>
-           <img>
-           </img>
+            <div className="samsung1">
+            <img src="s22ultra.webp">
+           </img>    
+            </div>
+     
         </div>
     )
 }
