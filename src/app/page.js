@@ -2,6 +2,10 @@
 import { useRouter } from "next/navigation"
 import Image from 'next/image'
 // import { useState } from "react"
+//ehleed git add .
+//drn git commit -m "yu oorcilsno bicih"
+// git push
+//shin ym nemegdsn gdgiig avh git pull
 import {useEffect} from 'react'
 export default function Home(){
   const router=useRouter()

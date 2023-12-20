@@ -1,31 +1,17 @@
-export default function Home(Name){
-    return(
-        <div className="bigIphoneContainer">
-            <div className="container">
+import { Data } from "../components/Data";
 
-      
-            <div className="container1">
-            <img src="iphone15promax.jpeg" className="picture"></img>
-            <img src="iphone15promax.jpeg" className="picture"></img>
-            <img src="iphone15promax.jpeg" className="picture"></img>
+export default function Home(Name) {
+  return (
+    <div className="bigIphoneContainer">
+      <div className="container flex-wrap flex gap-[10px]">
+        {Data.map((element, index) => {
+          return (
+            <div key={index} className="w-[20%]">
+              <img src={element.path}></img>
             </div>
-             
-            <div className="container2">
-            <img src="iphone15promax.jpeg" className="picture"></img>
-            <img src="iphone15promax.jpeg" className="picture"></img>
-            <img src="iphone15promax.jpeg" className="picture"></img>
-            </div>
-             
-            <div className="classname3">
-            <img src="iphone15promax.jpeg" className="picture"></img>
-            <img src="iphone15promax.jpeg" className="picture"></img>
-            <img src="iphone15promax.jpeg" className="picture"></img>
-            </div>
-
-          
-         </div>
-         
-
-        </div>
-    )
+          );
+        })}
+      </div>
+    </div>
+  );
 }
