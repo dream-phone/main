@@ -30,7 +30,7 @@ export const Data = [
   },
   {
     path: "/iphone13.webp",
-    name: "iphone 14",
+    name: "iphone 13",
   },
   {
     path: "/iphone12promax.jpeg",
@@ -45,12 +45,17 @@ export const Data = [
     name: "iphone 12",
   },
   {
+    path: "/iphone11.png",
+    name: "iphone 11",
+  },
+
+  {
     path: "/iphoneXmax.jpeg",
-    name: "iphone X max",
+    name: "iphone Xsmax",
   },
   {
     path: "/iphoneXryellowone.jpeg",
-    name: "iphone X (yellow)",
+    name: "iphone XR (yellow)",
   },
   {
     path: "/iphoneXS.jpeg",
