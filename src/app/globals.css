@@ -2,30 +2,23 @@
 @tailwind components;
 @tailwind utilities;
 
-.bigContainer{
+.bigContainer {
   display: flex;
-  gap:20px;
-  background-color:gray;
+  gap: 20px;
+  background-color: gray;
   justify-content: center;
   align-items: center;
   flex-direction: space-between;
 }
-.picture{
+.picture {
   display: flex;
   height: auto;
   width: 10%;
   background-image: none;
   background-repeat: no-repeat;
 }
-.bigIphoneContainer{
-  display: flex;
-  width: 100vw;
-  height: 100vh;
-  gap: 5px;
-  /* flex-wrap: wrap; */
 
-}
-.samsung1{
+.samsung1 {
   display: flex;
   height: 150px;
   width: 100px;
