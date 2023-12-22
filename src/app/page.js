@@ -17,7 +17,7 @@ export default function Home() {
         <button onClick={() => router.push("/Samsung")}>Samsung</button>
       </div>
       <div>
-        <button>Redmi</button>
+        <button onClick={() => router.push("/redmi")}>Redmi</button>
       </div>
     </div>
   );

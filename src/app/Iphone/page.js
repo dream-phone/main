@@ -16,7 +16,7 @@ export default function Home() {
                 router.push("/phone?name=" + element.path);
               }}
               key={index}
-              className="w-[15%] max-[600px]:w-[30%] max-[700px]:w-[40%] max-[600px]:h-[auto] max-[700px]:h-[40%] h-[auto] text-center"
+              className="w-[15%] max-[600px]:w-[30%] max-[700px]:w-[40%] max-[600px]:h-[auto] max-[700px]:h-[40%] h-[auto] text-center flex-col "
             >
               <div className="w-[100%] h-[90%] relative">
                 <Image
