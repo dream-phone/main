@@ -1,7 +1,7 @@
 "use client";
 
 import { useRouter } from "next/navigation";
-import { Data } from "../components/Data";
+import { DataIphone } from "../components/Data";
 import Image from "next/image";
 //100% tailwind ashiglare
 export default function Home() {
@@ -9,7 +9,7 @@ export default function Home() {
   return (
     <div className="flex w-[100vw] h-[100vh] justify-center overflow-x-hidden">
       <div className="flex-wrap  flex gap-[10px] justify-center">
-        {Data.map((element, index) => {
+        {DataIphone.map((element, index) => {
           return (
             <div
               onClick={() => {

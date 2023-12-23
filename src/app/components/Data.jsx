@@ -1,4 +1,4 @@
-export const Data = [
+export const DataIphone = [
   {
     path: "/iphone15promax.webp",
     name: "iphone 15 pro max",
@@ -60,5 +60,19 @@ export const Data = [
   {
     path: "/iphoneXS.jpeg",
     name: "iphone XS",
+  },
+];
+
+export const DataSamsung = [
+  {
+    name: "s22 ultra",
+    path: "/s22ultra.webp",
+  },
+];
+
+export const DataRedmi = [
+  {
+    name: "redmi 12",
+    path: "/xiaomi-redmi-12-1.jpg",
   },
 ];
