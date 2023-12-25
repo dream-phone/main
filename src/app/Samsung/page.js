@@ -1,11 +1,11 @@
-import { Data2 } from "../components/Data2";
+import { Data1 } from "../components/Data1";
 import Image from "next/image";
 //100% tailwind ashiglare
 export default function Home(Name) {
   return (
     <div className="flex w-[100vw] h-[100vh] justify-center overflow-x-hidden">
       <div className="flex-wrap  flex gap-[10px] justify-center">
-        {Data2.map((element, index) => {
+        {Data1.map((element, index) => {
           return (
             <div
               key={index}

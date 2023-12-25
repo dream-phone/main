@@ -8,7 +8,7 @@ export const Data = [
   {
     path: "/a71.jpeg",
     name: "Samsung A71 (5G)",
-    medeelel: "",
+    medeelel: "memory:",
     price: "",
   },
 

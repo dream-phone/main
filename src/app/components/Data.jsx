@@ -1,6 +1,6 @@
 export const Data = [
   {
-    path: "xxx",
+    path: "/iphone15pro.webp",
     name: "Redmi Note13pro (5G)",
     medeelel: "",
     price: "",
