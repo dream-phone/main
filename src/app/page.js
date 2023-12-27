@@ -11,13 +11,15 @@ export default function Home() {
   return (
     <div className="bigContainer">
       <div>
-        <button onClick={() => router.push("/Iphone")}>Iphone</button>
-      </div>
-      <div>
-        <button onClick={() => router.push("/Samsung")}>Samsung</button>
-      </div>
-      <div>
-        <button onClick={() => router.push("/redmi")}>Redmi</button>
+        <div>
+          <button onClick={() => router.push("/Iphone")}>Iphone</button>
+        </div>
+        <div>
+          <button onClick={() => router.push("/Samsung")}>Samsung</button>
+        </div>
+        <div>
+          <button onClick={() => router.push("/redmi")}>Redmi</button>
+        </div>
       </div>
     </div>
   );
