@@ -1,14 +1,14 @@
-export const DataIphone = [
+export const Data = [
   {
-    path: "/iphone15pro.webp",
-    name: "Redmi Note13pro (5G)",
-    medeelel: "",
+    path: "/a90.jpeg",
+    name: "Samsung A90",
+    medeelel: "memory:",
     price: "",
   },
   {
-    path: "/iphone15pro.webp",
-    name: "Redmi Note13 (5G)",
-    medeelel: "",
+    path: "/a71.jpeg",
+    name: "Samsung A71 (5G)",
+    medeelel: "memory:",
     price: "",
   },
 
@@ -90,19 +90,5 @@ export const DataIphone = [
     name: "iphone XS",
     medeelel: "",
     price: "750.000",
-  },
-];
-
-export const DataSamsung = [
-  {
-    name: "s22 ultra",
-    path: "/s22ultra.webp",
-  },
-];
-
-export const DataRedmi = [
-  {
-    name: "redmi 12",
-    path: "/xiaomi-redmi-12-1.jpg",
   },
 ];
